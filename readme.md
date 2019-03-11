@@ -16,7 +16,7 @@ ___
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
-Nun widmen wir uns der Virtualisierung von Computersystemen. Für den Betrieb von solchen Maschinen bzw. Computern stehen zahlreiche Virtualisierungsanwendungen zur Verfügung. Eine davon ist VirtualBox. In diesem Kapitel richten wir eine einfache VM (Virtuelle Maschine) mit VirtualBox ein. Also ganz traditionell und wie sich im späteren Verlauf zeigt, auch eine sehr aufwendige Arbeit.
+Als erstes müssen wir VirtualBox installieren. Das brauchen wir für die Virtualisierung von Computersystemen. In diesem Kapitel richten wir eine einfache VM mit VirtualBox ein. Also ganz traditionell und wie sich im späteren Verlauf zeigt, auch eine sehr aufwendige Arbeit.
 
 Folgende Arbeiten müssen gemacht werden:
 
