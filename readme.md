@@ -2,7 +2,7 @@
 
 Die nachstehende Dokumentation zeigt alle Schritte auf, die in LB2 gemacht wurden.
 
-#### Inhaltsverzeichnis
+### Inhaltsverzeichnis
 
 * 01 - [VirtualBox](#01---virtualbox)
 * 02 - [Vagrant](#02---vagrant)
