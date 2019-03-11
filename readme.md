@@ -11,7 +11,7 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die in LB2 gemacht wurde
 
 ___
 
-![](../images/VirtualBox_36x36.png "VirtualBox")  03 - VirtualBox
+01 - VirtualBox
 ======
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
@@ -84,7 +84,7 @@ Die virtuelle Maschine (VM) sollte nun soweit betriebsbereit sein, sprich der Zu
 9. Browser-Fenster schliessen und VM wieder herunterfahren/stoppen
 10. Mit dem Kapitel 4 (Vagrant) fortfahren
 
-![](../images/Vagrant_36x36.png "Vagrant")  04 - Vagrant
+02 - Vagrant
 ======
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
@@ -185,7 +185,7 @@ Nachfolgend wird die VM mit einem bereits abgeänderten File bzw. VM aus dem M30
 7. Vagrant ist nun komplett einsatzfähig!
 
 
-![](../images/VisualStudioCode_36x36.png "Visual Studio Code") 05 - Visual Studio Code
+03 - Visual Studio Code
 ======
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
@@ -256,18 +256,4 @@ Nun sollten keine Dateien mit den Endungen .git / .svn / .hg / .vagrant / .DS_st
 5. Nachricht hinterlegen (**Message**) und Haken (**Commit**) setzen
 6. Bei den 3 Punkten (...) die Funktion **Push** aufrufen
 7. Warten, bis Dateien vollständig gepusht wurden
-
-
-![](../images/Magnifier_36x36.png "Quellenverzeichnis") 06 - Quellenverzeichnis
-====== 
-
-> [⇧ **Nach oben**](#inhaltsverzeichnis)
-
-  * Formatierung Markdown-Cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-
-  * Code- und Syntax-Highlighting: https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
-
-  * Das SSH-Key-Problem: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
-
-
 ___
