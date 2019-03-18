@@ -4,18 +4,19 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
 
 ### Inhaltsverzeichnis
 
-* 01 - [VirtualBox](#01---virtualbox)
+* 01 - [K1](#01---K1)
 * 02 - [Vagrant](#02---vagrant)
 * 03 - [Visual Studio Code](#03---visual-studio-code)
 
 
 ___
 
-01 - VirtualBox
+01 - K1
 ======
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
+## VirtualBox
 Als erstes habe ich VirtualBox installiert. 
 
 Dazu habe ich folgende Arbeiten gemacht:
