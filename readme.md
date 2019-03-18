@@ -1,4 +1,4 @@
-# M300 - LB2 Silvan Walz
+# M300 - LB2.0 Silvan Walz
 
 Die nachstehende Dokumentation zeigt alle Schritte auf, die in LB2 gemacht wurden.
 
