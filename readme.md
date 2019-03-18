@@ -19,8 +19,6 @@ K1
 ## VirtualBox
 Als erstes habe ich VirtualBox installiert. 
 
-Dazu habe ich folgende Arbeiten gemacht:
-
 ### Software herunterladen & installieren
 ***
 1. Ich habe auf [dieser](https://www.virtualbox.org) Seite VirtualBox heruntergeladen.
