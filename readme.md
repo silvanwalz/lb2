@@ -1,4 +1,4 @@
-# M300 - LB2.0 Silvan Walz
+# M300 - LB2 Silvan Walz und Stef Gay
 
 Die nachstehende Dokumentation zeigt alle Schritte auf, die in LB2 gemacht wurden.
 
