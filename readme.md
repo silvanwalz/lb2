@@ -118,13 +118,13 @@ Danach habe ich mit Vagrant eine VM erstellt.
 ### Virtuelle Maschine erstellen (mit Vagrant-Box auf Netzwerkshare)
 ***
 1. Terminal öffnen
-2. In gewünschtem Verzeichnis einen neuen Ordner für die VM anlegen:
+2. Einen neuen Ordner für die VM anlegen:
     ```Shell
       $ cd Wohin\auch\immer
       $ mkdir MeineVagrantVM
       $ cd MeineVagrantVM
     ``` 
-3. Vagrantfile erzeugen, VM erstellen und entsprechend starten:
+3. Vagrantfile erzeugen, VM erstellen und starten:
     ```Shell
       $ vagrant box add http://10.1.66.11/vagrant/ubuntu/xenial64.box --name ubuntu/xenial64  #Vagrant-Box vom Netzwerkshare hinzufügen, falls nicht vorhanden
       $ vagrant init ubuntu/xenial64                                                      #Vagrantfile erzeugen
@@ -132,7 +132,7 @@ Danach habe ich mit Vagrant eine VM erstellt.
     ``` 
 4. Die VM ist nun in Betrieb (erscheint auch in der Übersicht innerhalb von VirtualBox) und kann via SSH-Zugriff bedient werden:
     ```Shell
-      $ cd Pfad\zu\meiner\Vagrant-VM      #Zum Verzeichnis der VM wechseln
+      $ cd Pfad\zu\meiner\Vagrant-VM    #Zum Verzeichnis der VM wechseln
       $ vagrant ssh                       #SSH-Verbindung zur VM aufbauen
 
       #Anschliessend können ganz normale Bash-Befehle abgesetzt werden:
