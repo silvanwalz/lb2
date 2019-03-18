@@ -4,14 +4,14 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
 
 ### Inhaltsverzeichnis
 
-* 01 - [K1](#01---K1)
+* [K1](#K1)
 * 02 - [Vagrant](#02---vagrant)
 * 03 - [Visual Studio Code](#03---visual-studio-code)
 
 
 ___
 
-01 - K1
+K1
 ======
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
