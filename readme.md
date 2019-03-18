@@ -16,15 +16,14 @@ ___
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
-Als erstes müssen wir VirtualBox installieren. Das brauchen wir für die Virtualisierung von Computersystemen. In diesem Kapitel richten wir eine einfache VM mit VirtualBox ein. Also ganz traditionell und wie sich im späteren Verlauf zeigt, auch eine sehr aufwendige Arbeit.
+Als erstes habe ich VirtualBox installiert. Das brauche ich für die Virtualisierung von Computersystemen. 
 
-Folgende Arbeiten müssen gemacht werden:
+Folgende Arbeiten habe ich gemacht:
 
 ### Software herunterladen & installieren
 ***
-1. Zuerst muss die VirtualBox-Anwendung installiert werden. Der Installer lässt sich [hier](https://www.virtualbox.org) herunterladen.
-2. Die Installation erfolgt GUI-basiert, jedoch Standard (ohne spezielle Anpassungen). Daher wird an dieser Stelle auf eine Erklärung verzichtet.
-3. Sobald der Vorgang abgeschlossen wurde, kann mit dem Herunterladen der ISO-Datei und der VM-Erstellung fortgefahren werden.
+1. Ich habe auf [dieser](https://www.virtualbox.org) Seite Virtualbox heruntergeladen.
+2. Die Installation erfolgt danach GUI-basiert.
 
 ### ISO-Datei herunterladen
 ***
