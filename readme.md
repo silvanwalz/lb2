@@ -6,8 +6,9 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
 
 * [K1](#K1)
   * [VirtualBox](#VirtualBox)
-* 02 - [Vagrant](#02---vagrant)
-* 03 - [Visual Studio Code](#03---visual-studio-code)
+  * [Vagrant](#Vagrant)
+  * [Visual Studio Code](#Visual-Studio-Code)
+  * [Git-Client](#Git-Client)
 ___
 
 K1
