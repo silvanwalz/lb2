@@ -72,31 +72,24 @@ Nun ist die VM erstellt.
 ## Vagrant
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
-In diesem Abschnit habe ich Vagrant eingerichtet.
+Zuerst habe ich Vagrant auf [dieser Webseite](https://www.vagrantup.com/ "vagrantup.com")   heruntergeladen und GUI-Basiert installiert.
 
-### Software herunterladen & installieren
-***
-Ich habe Vagrant auf [dieser](https://www.vagrantup.com/ "vagrantup.com")  Seite heruntergeladen und GUI-Basiert installiert.
-
-
-### Virtuelle Maschine erstellen
-***
-Danach habe ich mit Vagrant eine VM erstellt.
+<strong>Danach habe ich mit Vagrant eine VM erstellt.</strong>
 
 1. Terminal öffnen
-2. In Verzeichnis einen neuen Ordner für die VM anlegen:
+2. Einen neuen Ordner für die VM anlegen:
     ```Shell
       $ cd C:\Users\silva
       $ mkdir MeineVagrantVM
       $ cd MeineVagrantVM
     ``` 
-3. Vagrantfile erzeugen, VM erstellen und entsprechend starten:
+3. Vagrantfile erzeugen, VM erstellen und starten:
     ```Shell
       $ vagrant box add http://10.1.66.11/vagrant/ubuntu/xenial64.box --name ubuntu/xenial64  #Vagrant-Box vom Netzwerkshare hinzufügen
       $ vagrant init ubuntu/xenial64        #Vagrantfile erzeugen
       $ vagrant up --provider virtualbox    #Virtuelle Maschine erstellen & starten
     ``` 
-4. Die VM ist nun in Betrieb (erscheint auch in der Übersicht innerhalb von VirtualBox) und kann via SSH-Zugriff bedient werden:
+4. Die VM ist nun bereit und kann mit SSH-Zugriff bedient werden:
     ```Shell
       $ cd C:\Users\silva\MeineVagrantVM      #Zum Verzeichnis der VM wechseln
       $ vagrant ssh                       #SSH-Verbindung zur VM aufbauen
