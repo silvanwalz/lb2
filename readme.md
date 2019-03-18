@@ -213,7 +213,7 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 
 ### Repository herunterladen & aktualisieren (clone/pull)
 ***
-Damit ich das readme-File lokal bearbeiten kann, habe ich das Repository heruntergeladen und aktualisiert.
+### Damit ich das readme-File lokal bearbeiten kann, habe ich das Repository heruntergeladen und aktualisiert.
 
 1. Terminal öffnen
 2. Ordner für Repository erstellen:
@@ -236,7 +236,7 @@ Damit ich das readme-File lokal bearbeiten kann, habe ich das Repository herunte
 
 ## SSH-Key 
 ***
-Zuerst muss ich Lokal einen SSH-Key erstellen:
+### Zuerst muss ich Lokal einen SSH-Key erstellen:
 
 1.  Folgenden Befehl mit der Account-E-Mail von GitHub in Bash einfügen:
     ```Shell
