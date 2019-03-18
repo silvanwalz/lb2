@@ -23,9 +23,7 @@ K1
 1. Als erstes habe ich auf [dieser Webseite](https://www.virtualbox.org) VirtualBox heruntergeladen und danach GUI-basiert installiert.
 2. Danach habe ich den Ubuntu Desktop 16.04.05 auf [dieser Webseite](https://www.ubuntu.com/#download) heruntergeladen. 
 
-#### VM erstellen
-***
-Nachdem ich das ISO heruntergeladen habe, habe ich die VM erstellt:
+<strong>Nachdem ich das ISO heruntergeladen habe, habe ich die VM erstellt:</strong>
 
 1. VirtualBox starten
 2. Mit einem klick auf `Neu` eine neue VM erstellen.
