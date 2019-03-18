@@ -22,7 +22,7 @@ Dazu habe ich folgende Arbeiten gemacht:
 
 ### Software herunterladen & installieren
 ***
-1. Ich habe auf [dieser](https://www.virtualbox.org) Seite Virtualbox heruntergeladen.
+1. Ich habe auf [dieser](https://www.virtualbox.org) Seite VirtualBox heruntergeladen.
 2. Die Installation erfolgt danach GUI-basiert.
 
 ### ISO-Datei herunterladen
@@ -34,32 +34,32 @@ Danach habe ich den Ubuntu Desktop 16.04.05 auf [dieser](https://www.ubuntu.com/
 Nachdem ich das ISO heruntergeladen habe, bin ich folgendermassen fortgefahren:
 
 1. VirtualBox starten
-2. Links oben, innerhalb der Anwendung, auf `Neu` klicken
-3. Im neuen Fenster folgende Informationen eintragen:
+2. Mit einem klick auf `Neu` eine neue VM erstellen.
+3. Als nächstes muss man folgende Attribute angeben:
    *  Name:           `M300_Ubuntu_XX.04_Desktop`
    *  Typ:            `Linux`
    *  Version:        `Ubuntu (64-bit)`
    *  Speichergrösse: `2048 MB`
    *  Platte:         `[X] Festplatte erzeugen`
-4. Auf `Erzeugen` klicken
-5. Weiteres Fenster öffnet sich, folgende Informationen eintragen:
+4. Nun auf `Erzeugen` klicken
+5. Im nächsten Fenster, folgende Informationen eintragen:
    *  Dateipfad:                       standard
    *  Dateigrösse:                     `10.00 GB`
    *  Dateityp der Festplatte:         `VMDK (Virtual Maschine Disk)`
    *  Storage on physical hard disk:   `dynamisch alloziert`
-6. Ebenfalls auf `Erzeugen` klicken, dann im Hauptmenü die VM anwählen (blau markiert) und den Punkt `Ändern` aufrufen
+6. Nun erneut auf `Erzeugen` klicken, dann im Hauptmenü die VM anwählen (blau markiert) und den Punkt `Ändern` aufrufen
 7. Im Abschnitt `Massenspeicher` den SATA-Controller anwählen und auf das CD+Symbol klicken
 8. Unter `Medium auswählen` das zuvor heruntergeladene Systemabbild (ISO-Datei) anwählen
 9. Alle Änderungen speichern und die VM starten
-10. Den Installationsanweisungen der OS-Installation folgen und anschliessend zu Abschnitt "VM einrichten" gehen
+10. Nun den Installationsanweisungen der OS-Installation folgen. 
+
+Nun ist die VM erstellt.
 
 ### VM einrichten
 ***
-Die virtuelle Maschine (VM) sollte nun soweit betriebsbereit sein, sprich der Zugriff auf den Home-Desktop ist möglich. 
+Danach habe ich in der Bash folgende Befehle ausgeführt.
 
-1. Ubuntu-VM starten
-2. Anmelden und Terminal öffnen
-3. Paketliste neu einlesen und Pakete aktualisieren:
+1. Paketliste neu einlesen und Pakete aktualisieren:
    ```Shell 
    $  sudo apt-get update   #Paketlisten des Paketmanagement-Systems "APT" neu einlesen
    
@@ -67,19 +67,18 @@ Die virtuelle Maschine (VM) sollte nun soweit betriebsbereit sein, sprich der Zu
 
    $  sudo reboot           #System-Neustart durchführen
    ```
-4. Software Controlcenter "Synaptic" installieren:
+2. Software Controlcenter "Synaptic" installieren:
    ```Shell 
    $  sudo apt-get install synaptic
    ```
-5. Nach erfolgreicher Installation in der Suche nach "Synaptic Package Manager" suchen und diesen starten
-6. Innerhalb des Managers nach "apache" (Webserver-Programm) suchen und dieses (inkl. aller Abhängigkeiten) installieren
-7. System-Neustart durchführen:
+3. Nach erfolgreicher Installation in der Suche nach "Synaptic Package Manager" suchen und diesen starten
+4. Innerhalb des Managers nach "apache" (Webserver-Programm) suchen und dieses (inkl. aller Abhängigkeiten) installieren
+5. System-Neustart durchführen:
    ```Shell 
    $  sudo reboot
    ```
-8. Gängiger Web-Browser (z.B. Firefox) starten und prüfen, ob der Standard-Content des Webservers unter "http://127.0.0.01:80" (localhost) erreichbar ist
-9. Browser-Fenster schliessen und VM wieder herunterfahren/stoppen
-10. Mit dem Kapitel 4 (Vagrant) fortfahren
+6. Danach habe geprüft, ob der Standard-Content des Webservers unter "http://127.0.0.01:80" erreichbar ist
+
 
 02 - Vagrant
 ======
