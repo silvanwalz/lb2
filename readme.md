@@ -158,72 +158,37 @@ Nachfolgend habe ich die VM mit einem bereits abgeänderten File bzw. VM aus dem
       $ vagrant destroy -f
     ```
 
-
-
 03 - Visual Studio Code
 ======
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
-Bis hierhin haben wir soweit alles aufgesetzt und installiert. Nun möchten wir für effizienteres Arbeiten eine "Entwicklungsumgebung" aufbauen, die es uns ermöglicht, alle lokalen Repositories an einem Ort zu verwalten und die dazugehörigen Dateien zu bearbeiten. Die Lösung hierzu ist: Visual Studio Code 
-Dieser freie Quelltext-Editor von Microsoft, ermöglicht uns, unsere Workflows besser zu gestalten und damit die Arbeit um einiges leichter zu machen.
-
-Für die Einrichtung muss man sich nach den nachfolgenden Anweisungen orientieren:
+In diesem Abschnit habe ich Visual Studio Code heruntergeladen und angewendet.
 
 ### Software herunterladen & installieren
 ***
-1. Unter [dieser Webseite](https://code.visualstudio.com/"visualstudio.com") lässt sich der Installer (Version 1.26.1) herunterladen.
-2. Auf "Download for Mac" klicken und warten, bis das Fenster zum Herunterladen erscheint. Anschliessend den Download des Installers starten
-3. Die Installation erfolgt auch hier GUI-basiert. Wiederum aber Standard (ohne spezielle Anpassungen), sodass an dieser Stelle auf eine Erklärung ebenfalls verzichtet wird.
-4. Sobald der Vorgang abgeschlossen wurde, kann mit dem Herunterladen der ISO-Datei und der VM-Erstellung fortgefahren werden.
+1. Ich habe Visual Studio Code auf [dieser](https://code.visualstudio.com/"visualstudio.com") Seite heruntergelden und GUI-basiert installiert.
 
 
 ### Extensions installieren
 ***
 
-Wir fügen dem Editor drei wichtige Extensions hinzu:
+Danach habe ich dem Editor drei wichtige Extensions hinzugefügt:
 
 * Markdown All in One (von Yu Zhang)
 * Vagrant Extension (von Marco Stanzi)
 * vscode-pdf Extension (von tomiko1207)
 
-Dazu müssen folgende Anweisungen befolgt werden: 
+Dazu habe ich folgende Anweisungen befolgt: 
 
 1. Visual Studio Code öffnen
 2. Die Tastenkombination `CTRL` + `SHIFT` + `X` drücken und in der Suchleiste die erwähnten Extensions suchen
 3. Auf `Install` klicken und anschliessend auf `Reload`, um die Extension in den Arbeitsbereich zu laden.
-4. Nun können die Extensions angewendet werden. Für Markdown ist [diese Liste](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet/"github.com") sehr hilfreich.
-
-
-### Einstellungen anpassen
-***
-Damit keine Dateien der virtuellen Maschinen dem Cloud-Repository hinzugefügt werden (da Dateien zu gross), müssen diese in den Einstellungen "exkludiert" werden:
-
-1. Visual Studio Code öffnen
-2. Unter `Code` > `Preferences` > `Settings` bei den 3 Punkten (...) auf `Open setting.json` klicken
-3. Zu diesem Abschnitt gehen:
-     ```
-      // Configure glob patterns for excluding files and folders. For example, the files 
-      explorer decides which files and folders to show or hide based on this setting. 
-      Read more about glob patterns here. (...)
-    ``` 
-4. Nachstehenden Code einfügen:
-     ```
-      // Konfiguriert die Globmuster zum Ausschließen von Dateien und Ordnern.
-      "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/.vagrant": true,
-        "**/.DS_Store": true
-      },
-    ```
-5. Änderungen speichern und die Einstellungen schliessen
-   
-Nun sollten keine Dateien mit den Endungen .git / .svn / .hg / .vagrant / .DS_store hochgeladen werden. Wie man die Änderungen innerhalb von Visual Studio Code richtig pusht, wird im nachfolgenden Abschnitt erklärt. 
 
 ### Repository hinzufügen & pushen
 ***
+Um die Dokumentation lokal mit Visual Studio Code zu bearbeiten, arbeite ich folgendermassen:
+
 1. Visual Studio Code öffnen
 2. Änderungen an entsprechenden Dateien des lokalen Repositorys vornehmen
 3. In der linken Leiste das Symbol mit einer "1" aufrufen
