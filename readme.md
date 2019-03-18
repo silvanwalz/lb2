@@ -4,7 +4,7 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
 
 ### Inhaltsverzeichnis
 
-* [K1](#K1)
+* [Themenbereich K1](#K1)
   * [VirtualBox](#VirtualBox)
   * [Vagrant](#Vagrant)
   * [Visual Studio Code](#Visual-Studio-Code)
