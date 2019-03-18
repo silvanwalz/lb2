@@ -78,8 +78,6 @@ Danach habe ich in der Bash folgende Befehle ausgeführt.
 
 
 ## Vagrant
-======
-
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
 In diesem Abschnit habe ich Vagrant eingerichtet.
@@ -156,8 +154,6 @@ Nachfolgend habe ich die VM mit einem bereits abgeänderten File bzw. VM aus dem
     ```
 
 ## Visual Studio Code
-======
-
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
 In diesem Abschnit habe ich Visual Studio Code heruntergeladen und angewendet.
@@ -194,7 +190,6 @@ Um die Dokumentation lokal mit Visual Studio Code zu bearbeiten, arbeite ich fol
 6. Warten, bis Dateien vollständig gepusht wurden
 
 ## Git-Client
-======
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
 Damit ich die Arbeiten lokal auf dem eigenen PC machen konnte, musste ich der sogenannte "Git Client", auf Windows "Git/Bash" installieren. 
