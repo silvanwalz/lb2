@@ -94,10 +94,12 @@ Ich habe Vagrant auf [dieser](https://www.vagrantup.com/ "vagrantup.com")  Seite
 
 ### Virtuelle Maschine erstellen
 ***
+Danach habe ich mit Vagrant eine VM erstellt.
+
 1. Terminal öffnen
-2. In gewünschtem Verzeichnis einen neuen Ordner für die VM anlegen:
+2. In Verzeichnis einen neuen Ordner für die VM anlegen:
     ```Shell
-      $ cd Wohin\auch\immer
+      $ cd C:\Users\silva
       $ mkdir MeineVagrantVM
       $ cd MeineVagrantVM
     ``` 
@@ -109,19 +111,9 @@ Ich habe Vagrant auf [dieser](https://www.vagrantup.com/ "vagrantup.com")  Seite
     ``` 
 4. Die VM ist nun in Betrieb (erscheint auch in der Übersicht innerhalb von VirtualBox) und kann via SSH-Zugriff bedient werden:
     ```Shell
-      $ cd Pfad\zu\meiner\Vagrant-VM      #Zum Verzeichnis der VM wechseln
+      $ cd C:\Users\silva\MeineVagrantVM      #Zum Verzeichnis der VM wechseln
       $ vagrant ssh                       #SSH-Verbindung zur VM aufbauen
-
-      #Anschliessend können ganz normale Bash-Befehle abgesetzt werden:
-
-      $ ls -l /bin  #Bin-Verzeichnis anzeigen
-      $ df -h       #Freier Festplattenspeicher
-      $ free -m     #Freier Arbeitsspeicher
     ``` 
-5. VM über VirtualBox-GUI ausschalten
-
-Schlussfolgerung: Eine VM lässt sich mit Vagrant eindeutig schneller und unkomplizierter erstellen!
-
 
 ### Virtuelle Maschine erstellen (mit Vagrant-Box auf Netzwerkshare)
 ***
