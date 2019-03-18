@@ -19,16 +19,10 @@ K1
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
 ## VirtualBox
-Als erstes habe ich VirtualBox installiert. 
 
-### Software herunterladen & installieren
-***
-1. Ich habe auf [dieser](https://www.virtualbox.org) Seite VirtualBox heruntergeladen.
-2. Die Installation erfolgt danach GUI-basiert.
-
-### ISO-Datei herunterladen
-***
-Danach habe ich den Ubuntu Desktop 16.04.05 auf [dieser](https://www.ubuntu.com/#download) Seite heruntergeladen. 
+Ich habe auf [dieser Webseite](https://www.virtualbox.org) VirtualBox heruntergeladen und danach GUI-basiert installiert.
+___
+Danach habe ich den Ubuntu Desktop 16.04.05 auf [dieser Webseite](https://www.ubuntu.com/#download) heruntergeladen. 
 
 ### VM erstellen
 ***
