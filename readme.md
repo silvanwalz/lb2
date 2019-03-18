@@ -180,7 +180,6 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
     ```
 
 ## SSH-Key 
-***
 <strong>Zuerst muss ich Lokal einen SSH-Key erstellen:</strong>
 
 1.  Folgenden Befehl mit der Account-E-Mail von GitHub in Bash einfügen:
