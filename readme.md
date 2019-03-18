@@ -16,9 +16,9 @@ ___
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
-Als erstes habe ich VirtualBox installiert. Das brauche ich für die Virtualisierung von Computersystemen. 
+Als erstes habe ich VirtualBox installiert. 
 
-Folgende Arbeiten habe ich gemacht:
+Dazu habe ich folgende Arbeiten gemacht:
 
 ### Software herunterladen & installieren
 ***
