@@ -27,14 +27,12 @@ Dazu habe ich folgende Arbeiten gemacht:
 
 ### ISO-Datei herunterladen
 ***
-Für das weitere Vorgehen wird eine System-Abbild-Datei benötigt. Dazu laden wir in unserem Fall das Image von Ubuntu Desktop 16.04.05 herunter. Wie das genau funktioniert, wird nachfolgend beschrieben:
-
-1. Das Systemabbild (ISO-Image) über [diesen Link](https://www.ubuntu.com/#download) herunterladen. Wenn Download zu lange geht USB Stick vom Lehrer erfragen.
-2. Datei im gewünschten Verzeichnis ablegen (damit das Image wiederverwendet werden kann)
-3. Allen Anweisung in Abschnitt "VM erstellen" folgen
+Danach habe ich den Ubuntu Desktop 16.04.05 auf [dieser](https://www.ubuntu.com/#download) Seite heruntergeladen. 
 
 ### VM erstellen
 ***
+Nachdem ich das ISO heruntergeladen habe, bin ich folgendermassen fortgefahren:
+
 1. VirtualBox starten
 2. Links oben, innerhalb der Anwendung, auf `Neu` klicken
 3. Im neuen Fenster folgende Informationen eintragen:
