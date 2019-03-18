@@ -85,16 +85,12 @@ Danach habe ich in der Bash folgende Befehle ausgeführt.
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
-Kapitel 3 (VirtualBox) sollte uns zeigen, dass das Bereitstellen virtueller Systeme in der konventionellen Art lange dauert und umständlich sein kann.
-Abhilfe bietet hier Vagrant. Vagrant ist eine freie Ruby-Anwendung zur Erstellung und Verwaltung virtueller Maschinen und ermöglicht einfache Softwareverteilung.
-
-Nachfolgend sind einzelne Schritte zur Einrichtung von Vagrant dokumentiert:
+In diesem Abschnit habe ich Vagrant eingerichtet.
 
 ### Software herunterladen & installieren
 ***
-1. Die Anwendung kann auf der [offiziellen Webseite](https://www.vagrantup.com/ "vagrantup.com") heruntergeladen werden.
-2. Die Installation erfolgt, wie alle anderen Anwendungen, GUI-basiert, jedoch Standard (ohne spezielle Anpassungen). Daher wird an dieser Stelle ebenfalls auf eine Erklärung verzichtet.
-3. Sobald der Vorgang abgeschlossen wurde, kann mit dem Erstellen einer VM fortgefahren werden. 
+Ich habe Vagrant auf [dieser](https://www.vagrantup.com/ "vagrantup.com")  Seite heruntergeladen und GUI-Basiert installiert.
+
 
 ### Virtuelle Maschine erstellen
 ***
