@@ -4,13 +4,15 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
 
 ### Inhaltsverzeichnis
 
-* [Themenbereich K1](#K1)
-  * [VirtualBox](#VirtualBox)
-  * [Vagrant](#Vagrant)
-  * [Visual Studio Code](#Visual-Studio-Code)
-  * [Git-Client](#Git-Client)
-  * [SSH-Key](#SSH-Key)
-* [Themenbereich K2](#K2)
+- [M300 - LB2 Dokumentation Silvan Walz](#m300---lb2-dokumentation-silvan-walz)
+    - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+- [K1](#k1)
+  - [VirtualBox](#virtualbox)
+  - [Vagrant](#vagrant)
+  - [Visual Studio Code](#visual-studio-code)
+  - [Git-Client](#git-client)
+  - [SSH-Key](#ssh-key)
+- [K2](#k2)
 ___
 
 K1
@@ -95,35 +97,10 @@ Zuerst habe ich Vagrant auf [dieser Webseite](https://www.vagrantup.com/ "vagran
       $ vagrant ssh                       #SSH-Verbindung zur VM aufbauen
     ``` 
 
-### Virtuelle Maschine erstellen (mit Vagrant-Box auf Netzwerkshare)
-***
-1. Terminal öffnen
-2. Einen neuen Ordner für die VM anlegen:
-    ```Shell
-      $ cd Wohin\auch\immer
-      $ mkdir MeineVagrantVM
-      $ cd MeineVagrantVM
-    ``` 
-3. Vagrantfile erzeugen, VM erstellen und starten:
-    ```Shell
-      $ vagrant box add http://10.1.66.11/vagrant/ubuntu/xenial64.box --name ubuntu/xenial64  #Vagrant-Box vom Netzwerkshare hinzufügen, falls nicht vorhanden
-      $ vagrant init ubuntu/xenial64                                                      #Vagrantfile erzeugen
-      $ vagrant up --provider virtualbox                                                  #Virtuelle Maschine erstellen & starten
-    ``` 
-4. Die VM ist nun in Betrieb (erscheint auch in der Übersicht innerhalb von VirtualBox) und kann via SSH-Zugriff bedient werden:
-    ```Shell
-      $ cd Pfad\zu\meiner\Vagrant-VM
-      #Zum Verzeichnis der VM wechseln
-      $ vagrant ssh             
-      # SSH-Verbindung zur VM          
-    ``` 
-
-### Apache Webserver automatisiert aufsetzen
-***
-Nachfolgend habe ich die VM mit einem bereits abgeänderten File bzw. VM aus dem M300-Repository erstellt:
+<strong>Nachfolgend habe ich eine VM mit Apache Webserver von einem bereits abgeänderten File erstellt:</strong>
 
 1. Terminal öffnen
-2. In das M300-Verzeichnis (\M300\vagrant\web) wechseln:
+2. In das M300-Verzeichnis wechseln:
     ```Shell
       $ cd C:\Users\silva\M300\vagrant\web
     ``` 
@@ -141,17 +118,10 @@ Nachfolgend habe ich die VM mit einem bereits abgeänderten File bzw. VM aus dem
 ## Visual Studio Code
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
-In diesem Abschnit habe ich Visual Studio Code heruntergeladen und angewendet.
+<strong>In diesem Abschnit habe ich Visual Studio Code heruntergeladen, installiert und angewendet.</strong>
 
-### Software herunterladen & installieren
-***
 1. Ich habe Visual Studio Code auf [dieser](https://code.visualstudio.com/"visualstudio.com") Seite heruntergelden und GUI-basiert installiert.
-
-
-### Extensions installieren
-***
-
-Danach habe ich dem Editor drei wichtige Extensions hinzugefügt:
+2. Danach habe ich dem Editor drei wichtige Extensions hinzugefügt:
 
 * Markdown All in One (von Yu Zhang)
 * Vagrant Extension (von Marco Stanzi)
@@ -159,13 +129,11 @@ Danach habe ich dem Editor drei wichtige Extensions hinzugefügt:
 
 Dazu habe ich folgende Anweisungen befolgt: 
 
-1. Visual Studio Code öffnen
-2. Die Tastenkombination `CTRL` + `SHIFT` + `X` drücken und in der Suchleiste die erwähnten Extensions suchen
-3. Auf `Install` klicken und anschliessend auf `Reload`, um die Extension in den Arbeitsbereich zu laden.
+  1. Visual Studio Code öffnen
+  2. Die Tastenkombination `CTRL` + `SHIFT` + `X` drücken und in der Suchleiste die erwähnten Extensions suchen
+  3. Auf `Install` klicken und anschliessend auf `Reload`, um die Extension in den Arbeitsbereich zu laden.
 
-### Repository hinzufügen & pushen
-***
-Um die Dokumentation lokal mit Visual Studio Code zu bearbeiten, arbeite ich folgendermassen:
+<strong>Um die Dokumentation lokal mit Visual Studio Code zu bearbeiten, arbeite ich folgendermassen:</strong>
 
 1. Änderungen am Readme-File von meinem Repositorys vornehmen
 2. Datei speichern und in der linken Leiste das Symbol mit einer "1" aufrufen
@@ -179,12 +147,10 @@ Um die Dokumentation lokal mit Visual Studio Code zu bearbeiten, arbeite ich fol
 
 Damit ich die Arbeiten lokal auf dem eigenen PC machen konnte, musste ich der sogenannte "Git Client", auf Windows "Git/Bash" installieren. 
 
-### Client installieren
-***
+<strong>Client installieren</strong>
 Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite heruntergeladen und GUI-basiert installiert.
 
-### Client konfigurieren
-***
+<strong>Danach habe ich den Client konfiguriert<strong>
 1. Terminal öffnen
 2. Git konfigurieren mit Informationen des GitHub-Accounts:
     ```Shell
@@ -192,9 +158,7 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
       $ git config --global user.email "<e-mail>"
     ``` 
 
-### Repository herunterladen & aktualisieren (clone/pull)
-***
-### Damit ich das readme-File lokal bearbeiten kann, habe ich das Repository heruntergeladen und aktualisiert.
+<strong>Damit ich das readme-File lokal bearbeiten kann, habe ich das Repository heruntergeladen und aktualisiert.</strong>
 
 1. Terminal öffnen
 2. Ordner für Repository erstellen:
@@ -217,7 +181,7 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 
 ## SSH-Key 
 ***
-### Zuerst muss ich Lokal einen SSH-Key erstellen:
+<strong>Zuerst muss ich Lokal einen SSH-Key erstellen:</strong>
 
 1.  Folgenden Befehl mit der Account-E-Mail von GitHub in Bash einfügen:
     ```Shell
@@ -236,7 +200,7 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
       Enter passphrase (empty for no passphrase): [Passwort]
       Enter same passphrase again: [Passwort wiederholen]
     ```
-### Danach kann ich den SSH-Key dem Client hinzufügen:
+<strong>Danach kann ich den SSH-Key dem Client hinzufügen:</strong>
 1. Auf www.github.com im Benutzerkonto <strong>Settings</strong> aufrufen
 2.  Unter den Menübereichen auf der linken Seite zum Abschnitt <strong>SSH und GPG keys</strong> wechseln
 3.  Auf <strong>New SSH key</strong> klicken
