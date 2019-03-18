@@ -189,11 +189,9 @@ Dazu habe ich folgende Anweisungen befolgt:
 ***
 Um die Dokumentation lokal mit Visual Studio Code zu bearbeiten, arbeite ich folgendermassen:
 
-1. Visual Studio Code öffnen
-2. Änderungen an entsprechenden Dateien des lokalen Repositorys vornehmen
-3. In der linken Leiste das Symbol mit einer "1" aufrufen
-4. Unter dem Abschnitt **Changes** die betroffenen Files bezüglich ihres Changes "stagen" (**Stage Changes**)
-5. Nachricht hinterlegen (**Message**) und Haken (**Commit**) setzen
-6. Bei den 3 Punkten (...) die Funktion **Push** aufrufen
-7. Warten, bis Dateien vollständig gepusht wurden
-___
+1. Änderungen am Readme-File von meinem Repositorys vornehmen
+2. Datei speichern und in der linken Leiste das Symbol mit einer "1" aufrufen
+3. Unter dem Abschnitt **Changes** die betroffenen Files bezüglich ihres Changes "stagen"
+4. Nachricht hinterlegen und Haken setzen
+5. Bei den 3 Punkten (...) die Funktion **Push** aufrufen
+6. Warten, bis Dateien vollständig gepusht wurden
