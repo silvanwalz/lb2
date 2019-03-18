@@ -24,7 +24,6 @@ K1
 2. Danach habe ich den Ubuntu Desktop 16.04.05 auf [dieser Webseite](https://www.ubuntu.com/#download) heruntergeladen. 
 
 <strong>Nachdem ich das ISO heruntergeladen habe, habe ich die VM erstellt:</strong>
-
 1. VirtualBox starten
 2. Mit einem klick auf `Neu` eine neue VM erstellen.
 3. Als nächstes muss man folgende Attribute angeben:
@@ -47,9 +46,7 @@ K1
 
 Nun ist die VM erstellt.
 
-### VM einrichten
-***
-Danach habe ich in der Bash folgende Befehle ausgeführt.
+<strong>Danach habe ich in der Bash folgende Befehle ausgeführt.</strong>
 
 1. Paketliste neu einlesen und Pakete aktualisieren:
    ```Shell 
