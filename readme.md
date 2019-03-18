@@ -238,25 +238,24 @@ Damit ich das readme-File lokal bearbeiten kann, habe ich das Repository herunte
 ***
 Zuerst muss ich Lokal einen SSH-Key erstellen:
 
-1.  Terminal öffnen
-2.  Folgenden Befehl mit der Account-E-Mail von GitHub einfügen:
+1.  Folgenden Befehl mit der Account-E-Mail von GitHub in Bash einfügen:
     ```Shell
       $  ssh-keygen -t rsa -b 4096 -C "silvan.walz@hotmail.ch"
     ```
-3. Neuer SSH-Key wird erstellt:
+2. Neuer SSH-Key wird erstellt:
     ```Shell
       Generating public/private rsa key pair.
     ```
-4. Bei der Abfrage, unter welchem Namen der Schlüssel gespeichert werden soll, die Enter-Taste drücken (für Standard):
+3. Bei der Abfrage, unter welchem Namen der Schlüssel gespeichert werden soll, die Enter-Taste drücken (für Standard):
     ```Shell
       Enter a file in which to save the key (~/.ssh/id_rsa): [Press enter]
     ```
-5. Nun habe ich ein Passwort für den Key festgelegt:
+4. Nun habe ich ein Passwort für den Key festgelegt:
     ```Shell
       Enter passphrase (empty for no passphrase): [Passwort]
       Enter same passphrase again: [Passwort wiederholen]
     ```
-<strong>Danach kann ich den SSH-Key dem Client hinzufügen:</strong>
+### Danach kann ich den SSH-Key dem Client hinzufügen:
 1. Auf www.github.com im Benutzerkonto <strong>Settings</strong> aufrufen
 2.  Unter den Menübereichen auf der linken Seite zum Abschnitt <strong>SSH und GPG keys</strong> wechseln
 3.  Auf <strong>New SSH key</strong> klicken
