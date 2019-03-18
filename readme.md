@@ -256,16 +256,12 @@ Zuerst muss ich Lokal einen SSH-Key erstellen:
       Enter passphrase (empty for no passphrase): [Passwort]
       Enter same passphrase again: [Passwort wiederholen]
     ```
-
-### SSH-Key hinzufügen
-***
-1.  Anmelden unter www.github.com
-2.  Auf Benutzerkonto klicken (oben rechts) und den Punkt <strong>Settings</strong> aufrufen
-3.  Unter den Menübereichen auf der linken Seite zum Abschnitt <strong>SSH und GPG keys</strong> wechseln
-4.  Auf <strong>New SSH key</strong> klicken
-5.  Im Formular unter <strong>Title</strong> eine Bezeichnung vergeben (z.B. MB SSH-Key)
-6.  Den Key von der Datei C:\Users\silva\.ssh\id_rsa.pub einfügen und auf <strong>Add SSH key</strong> klicken
-7.  Der Schlüssel (SSH-Key) sollte nun in der übergeordneten Liste auftauchen
+<strong>Danach kann ich den SSH-Key dem Client hinzufügen:</strong>
+1. Auf www.github.com im Benutzerkonto <strong>Settings</strong> aufrufen
+2.  Unter den Menübereichen auf der linken Seite zum Abschnitt <strong>SSH und GPG keys</strong> wechseln
+3.  Auf <strong>New SSH key</strong> klicken
+4.  Im Formular unter <strong>Title</strong> die Bezeichnung MB SSH-Key vergeben
+5.  Den Key von der Datei <strong>C:\Users\silva\.ssh\id_rsa.pub</strong> einfügen und auf <strong>Add SSH key</strong> klicken
 
 ___
 K2
