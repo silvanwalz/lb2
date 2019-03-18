@@ -10,7 +10,7 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
   * [Visual Studio Code](#Visual-Studio-Code)
   * [Git-Client](#Git-Client)
   * [SSH-Key](#SSH-Key)
-* [K2](#K2)
+* [Themenbereich K2](#K2)
 ___
 
 K1
