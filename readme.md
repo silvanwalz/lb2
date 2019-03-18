@@ -7,8 +7,6 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
 * [K1](#K1)
 * 02 - [Vagrant](#02---vagrant)
 * 03 - [Visual Studio Code](#03---visual-studio-code)
-
-
 ___
 
 K1
@@ -79,7 +77,7 @@ Danach habe ich in der Bash folgende Befehle ausgeführt.
 6. Danach habe geprüft, ob der Standard-Content des Webservers unter "http://127.0.0.01:80" erreichbar ist
 
 
-02 - Vagrant
+## Vagrant
 ======
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
@@ -157,7 +155,7 @@ Nachfolgend habe ich die VM mit einem bereits abgeänderten File bzw. VM aus dem
       $ vagrant destroy -f
     ```
 
-03 - Visual Studio Code
+## Visual Studio Code
 ======
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
@@ -194,3 +192,45 @@ Um die Dokumentation lokal mit Visual Studio Code zu bearbeiten, arbeite ich fol
 4. Nachricht hinterlegen und Haken setzen
 5. Bei den 3 Punkten (...) die Funktion **Push** aufrufen
 6. Warten, bis Dateien vollständig gepusht wurden
+
+## Git-Client
+======
+> [⇧ **Nach oben**](#inhaltsverzeichnis)
+
+Damit ich die Arbeiten lokal auf dem eigenen PC machen konnte, musste ich der sogenannte "Git Client", auf Windows "Git/Bash" installieren. 
+
+### Client installieren
+***
+Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite heruntergeladen und GUI-basiert installiert.
+
+### Client konfigurieren
+***
+1. Terminal öffnen
+2. Git konfigurieren mit Informationen des GitHub-Accounts:
+    ```Shell
+      $ git config --global user.name "<username>"
+      $ git config --global user.email "<e-mail>"
+    ``` 
+
+### Repository herunterladen & aktualisieren (clone/pull)
+***
+Damit ich das readme-File lokal bearbeiten kann, habe ich das Repository heruntergeladen und aktualisiert.
+
+1. Terminal öffnen
+2. Ordner für Repository erstellen:
+    ```Shell
+      $ cd C:\Users\silva\Desktop
+      $ mkdir githublb2
+    ``` 
+3. Repository mit SSH klonen:
+    ```Shell
+      $ git clone git@github.com:silvanwalz/lb2.git
+
+      Cloning into 'lb2'...
+    ``` 
+4. Repository aktualisieren und Status anzeigen:
+    ```Shell
+      $ git pull
+
+      Already up to date.
+    ```
