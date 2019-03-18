@@ -132,41 +132,32 @@ Danach habe ich mit Vagrant eine VM erstellt.
     ``` 
 4. Die VM ist nun in Betrieb (erscheint auch in der Übersicht innerhalb von VirtualBox) und kann via SSH-Zugriff bedient werden:
     ```Shell
-      $ cd Pfad\zu\meiner\Vagrant-VM    #Zum Verzeichnis der VM wechseln
-      $ vagrant ssh                       #SSH-Verbindung zur VM aufbauen
-
-      #Anschliessend können ganz normale Bash-Befehle abgesetzt werden:
-
-      $ ls -l /bin  #Bin-Verzeichnis anzeigen
-      $ df -h       #Freier Festplattenspeicher
-      $ free -m     #Freier Arbeitsspeicher
+      $ cd Pfad\zu\meiner\Vagrant-VM
+      #Zum Verzeichnis der VM wechseln
+      $ vagrant ssh             
+      # SSH-Verbindung zur VM          
     ``` 
-5. VM über VirtualBox-GUI ausschalten
-
-Schlussfolgerung: Keine erheblichen Unterschiede zum ersten Teil (ohne Share) und daher auch nicht wirklich kompliziert.
 
 ### Apache Webserver automatisiert aufsetzen
 ***
-Um den Automatisierungsgrad von Vagrant im Rahmen dieser Dokumentation etwas besser hervorzuheben, richten wir eine VM, dass sie direkt mit einem vorinstallierten Apache-Webserver startet. Dazu können wir im Vagrantfile den Code etwas leicht abändern und direkt auf Bash-Ebene mit einfachen Befehlen arbeiten. 
-
-Nachfolgend wird die VM mit einem bereits abgeänderten File bzw. VM aus dem M300-Repository erstellt:
+Nachfolgend habe ich die VM mit einem bereits abgeänderten File bzw. VM aus dem M300-Repository erstellt:
 
 1. Terminal öffnen
 2. In das M300-Verzeichnis (\M300\vagrant\web) wechseln:
     ```Shell
-      $ cd Pfad/zum-M300-Verzeichnis/vagrant/web
+      $ cd C:\Users\silva\M300\vagrant\web
     ``` 
 3. VM erstellen und starten:
     ```Shell
       $ vagrant up
     ``` 
-4. Webbrowser öffnen und prüfen, ob der Standard-Content des Webservers unter "http://127.0.0.01:8080" (localhost) erreichbar ist
-5. Im Ordner `\web` die Hauptseite `index.html` editieren bzw. durch eine andere ersetzen (z.B. HTML5up-Themplate) und das Resultat überprüfen
-6. Abschliessend kann die VM wieder gelöscht werden:
+4. Danach habe ich im Webbrowser geprüft, ob der Standard-Content des Webservers unter "http://127.0.0.01:8080" (localhost) erreichbar ist
+5. Später habe ich im Ordner `\web` die Hauptseite `index.html` editiert und das Resultat überprüft.
+6. Abschliessend habe ich die VM wieder gelöscht:
     ```Shell
       $ vagrant destroy -f
     ```
-7. Vagrant ist nun komplett einsatzfähig!
+
 
 
 03 - Visual Studio Code
