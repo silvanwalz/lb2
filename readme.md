@@ -180,7 +180,9 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
     ```
 
 ## SSH-Key 
-<strong>Zuerst muss ich Lokal einen SSH-Key erstellen:</strong>
+> [⇧ **Nach oben**](#inhaltsverzeichnis)
+
+<strong>Zuerst musste ich Lokal einen SSH-Key erstellen:</strong>
 
 1.  Folgenden Befehl mit der Account-E-Mail von GitHub in Bash einfügen:
     ```Shell
@@ -211,6 +213,8 @@ K2
 ======
 
 ##GitHub Account
+> [⇧ **Nach oben**](#inhaltsverzeichnis)
+
 <strong>Ich habe folgendermassen einen Github Account erstellt:</strong>
 1. Auf [GitHub.com](https://github.com) gehen
 2. Auf <strong>Sign up</strong> klicken
