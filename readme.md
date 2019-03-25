@@ -239,7 +239,7 @@ K4
       sudo ufw allow 80/tcp
       sudo ufw allow 22/tcp
       sudo ufw allow out 22/tcp 
-      sudo ufw "enable"
+      sudo ufw enable
     ``` 
 ## Benutzer und Rechtevergabe
 
