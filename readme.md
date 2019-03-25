@@ -13,6 +13,7 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
   - [Git-Client](#git-client)
   - [SSH-Key](#ssh-key)
 - [K2](#k2)
+  - [GitHub Account](#github-account)
 ___
 
 K1
@@ -211,8 +212,7 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 ___
 K2
 ======
-
-##GitHub Account
+## GitHub Account
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
 <strong>Ich habe folgendermassen einen Github Account erstellt:</strong>
