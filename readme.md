@@ -13,6 +13,9 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
 - [K2](#k2)
   - [GitHub Account](#github-account)
 - [K4](#k4)
+  - [Firewall](#firewall)
+  - [Benutzer und Rechtevergabe](#benutzer-und-rechtevergabe)
+  - [SSH](#ssh)
 ___
 
 K1
@@ -225,8 +228,10 @@ K4
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
  
-  ## Firewall
-  
+## Firewall
+
+  **Ich habe beim aufsetzen automatisch Firewall Regeln erstellt, indem ich die nötigen Zeilen ins Vagrantfile eingefügt habe:**
+
 1. Vagrantfile öffnen
 2. Folgende Zeilen einfügen:
     ```Shell
@@ -236,3 +241,25 @@ K4
       sudo ufw allow out 22/tcp 
       sudo ufw "enable"
     ``` 
+## Benutzer und Rechtevergabe
+
+**Ich habe beim aufsetzen automatisch User mit Passwort erstellt, indem ich die nötigen Zeilen ins Vagrantfile eingefügt habe:**
+
+1. Vagrantfile öffnen
+2. Folgende Zeilen einfügen:
+    ```Shell
+      sudo groupadd users
+      sudo useradd user1 -g admin -m -s /bin/bash 
+      sudo useradd user2 -g admin -m -s /bin/bash 
+      sudo chpasswd <<<user1:abc123	
+      sudo chpasswd <<<user2:abc123
+    ```
+## SSH
+
+**Ich habe beim aufsetzen automatisch ein SSH Zugang erstellt, indem ich die nötigen Zeilen ins Vagrantfile eingefügt habe:**
+
+1. Vagrantfile öffnen
+2. Folgende Zeilen einfügen:
+    ```Shell
+      sudo apt-get -y install openssh-server
+    ```
