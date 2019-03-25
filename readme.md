@@ -12,14 +12,14 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
   - [SSH-Key](#ssh-key)
 - [K2](#k2)
   - [GitHub Account](#github-account)
+- [K4](#k4)
 ___
 
 K1
 ======
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
-
-[//]: <> (
+ 
   ## VirtualBox
 
 1. Als erstes habe ich auf [dieser Webseite](https://www.virtualbox.org) VirtualBox heruntergeladen und danach GUI-basiert installiert.
@@ -45,7 +45,7 @@ K1
 8. Unter `Medium auswählen` das zuvor heruntergeladene Systemabbild (ISO-Datei) anwählen
 9. Alle Änderungen speichern und die VM starten
 10. Nun den Installationsanweisungen der OS-Installation folgen. 
-)
+
 Nun ist die VM erstellt.
 
 **Danach habe ich in der Bash folgende Befehle ausgeführt.**
@@ -218,3 +218,21 @@ K2
 2. Auf **Sign up** klicken
 3. Username, E-mail und Passwort eingeben sowie Aufgabe zum verifizieren lösen
 4. Auf **Create an Account** klicken
+
+
+K4
+======
+
+> [⇧ **Nach oben**](#inhaltsverzeichnis)
+ 
+  ## Firewall
+  
+1. Vagrantfile öffnen
+2. Folgende Zeilen einfügen:
+    ```Shell
+      sudo apt-get install ufw
+      sudo ufw allow 80/tcp
+      sudo ufw allow 22/tcp
+      sudo ufw allow out 22/tcp 
+      sudo ufw "enable"
+    ``` 
