@@ -2,9 +2,9 @@
 
 Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2 gemacht habe.
 
-### Inhaltsverzeichnis
+## Inhaltsverzeichnis
 - [M300 - LB2 Dokumentation Silvan Walz](#m300---lb2-dokumentation-silvan-walz)
-    - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
 - [K1](#k1)
   - [VirtualBox](#virtualbox)
   - [Vagrant](#vagrant)
