@@ -1,10 +1,8 @@
-# M300 - LB2 Dokumentation Silvan Walz
+**M300 - LB2 Dokumentation Silvan Walz**
 
 Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2 gemacht habe.
 
-## Inhaltsverzeichnis
-- [M300 - LB2 Dokumentation Silvan Walz](#m300---lb2-dokumentation-silvan-walz)
-  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+**Inhaltsverzeichnis**
 - [K1](#k1)
   - [VirtualBox](#virtualbox)
   - [Vagrant](#vagrant)
@@ -25,7 +23,7 @@ K1
 1. Als erstes habe ich auf [dieser Webseite](https://www.virtualbox.org) VirtualBox heruntergeladen und danach GUI-basiert installiert.
 2. Danach habe ich den Ubuntu Desktop 16.04.05 auf [dieser Webseite](https://www.ubuntu.com/#download) heruntergeladen. 
 
-<strong>Nachdem ich das ISO heruntergeladen habe, habe ich die VM erstellt:</strong>
+**Nachdem ich das ISO heruntergeladen habe, habe ich die VM erstellt:**
 1. VirtualBox starten
 2. Mit einem klick auf `Neu` eine neue VM erstellen.
 3. Als nächstes muss man folgende Attribute angeben:
@@ -48,7 +46,7 @@ K1
 
 Nun ist die VM erstellt.
 
-<strong>Danach habe ich in der Bash folgende Befehle ausgeführt.</strong>
+**Danach habe ich in der Bash folgende Befehle ausgeführt.**
 
 1. Paketliste neu einlesen und Pakete aktualisieren:
    ```Shell 
@@ -76,8 +74,7 @@ Nun ist die VM erstellt.
 
 Zuerst habe ich Vagrant auf [dieser Webseite](https://www.vagrantup.com/ "vagrantup.com")   heruntergeladen und GUI-Basiert installiert.
 
-<strong>Danach habe ich mit Vagrant eine VM erstellt.</strong>
-
+**Danach habe ich mit Vagrant eine VM erstellt.**
 1. Terminal öffnen
 2. Einen neuen Ordner für die VM anlegen:
     ```Shell
@@ -97,7 +94,7 @@ Zuerst habe ich Vagrant auf [dieser Webseite](https://www.vagrantup.com/ "vagran
       $ vagrant ssh                       #SSH-Verbindung zur VM aufbauen
     ``` 
 
-<strong>Nachfolgend habe ich eine VM mit Apache Webserver von einem bereits abgeänderten File erstellt:</strong>
+**Nachfolgend habe ich eine VM mit Apache Webserver von einem bereits abgeänderten File erstellt:**
 
 1. Terminal öffnen
 2. In das M300-Verzeichnis wechseln:
@@ -118,7 +115,7 @@ Zuerst habe ich Vagrant auf [dieser Webseite](https://www.vagrantup.com/ "vagran
 ## Visual Studio Code
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
-<strong>In diesem Abschnit habe ich Visual Studio Code heruntergeladen, installiert und angewendet.</strong>
+**In diesem Abschnit habe ich Visual Studio Code heruntergeladen, installiert und angewendet.**
 
 1. Ich habe Visual Studio Code auf [dieser](https://code.visualstudio.com/"visualstudio.com") Seite heruntergelden und GUI-basiert installiert.
 2. Danach habe ich dem Editor drei wichtige Extensions hinzugefügt:
@@ -147,10 +144,10 @@ Dazu habe ich folgende Anweisungen befolgt:
 
 Damit ich die Arbeiten lokal auf dem eigenen PC machen konnte, musste ich der sogenannte "Git Client", auf Windows "Git/Bash" installieren. 
 
-<strong>Client installieren</strong>
+**Client installieren**
 Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite heruntergeladen und GUI-basiert installiert.
 
-<strong>Danach habe ich den Client konfiguriert:</strong>
+**Danach habe ich den Client konfiguriert:**
 1. Terminal öffnen
 2. Git konfigurieren mit Informationen des GitHub-Accounts:
     ```Shell
@@ -158,7 +155,7 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
       $ git config --global user.email "<e-mail>"
     ``` 
 
-<strong>Damit ich das readme-File lokal bearbeiten kann, habe ich das Repository heruntergeladen und aktualisiert.</strong>
+**Damit ich das readme-File lokal bearbeiten kann, habe ich das Repository heruntergeladen und aktualisiert.**
 
 1. Terminal öffnen
 2. Ordner für Repository erstellen:
@@ -182,7 +179,7 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 ## SSH-Key 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
-<strong>Zuerst musste ich Lokal einen SSH-Key erstellen:</strong>
+**Zuerst musste ich Lokal einen SSH-Key erstellen:**
 
 1.  Folgenden Befehl mit der Account-E-Mail von GitHub in Bash einfügen:
     ```Shell
@@ -201,12 +198,12 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
       Enter passphrase (empty for no passphrase): [Passwort]
       Enter same passphrase again: [Passwort wiederholen]
     ```
-<strong>Danach kann ich den SSH-Key dem Client hinzufügen:</strong>
-1. Auf www.github.com im Benutzerkonto <strong>Settings</strong> aufrufen
-2.  Unter den Menübereichen auf der linken Seite zum Abschnitt <strong>SSH und GPG keys</strong> wechseln
-3.  Auf <strong>New SSH key</strong> klicken
-4.  Im Formular unter <strong>Title</strong> die Bezeichnung MB SSH-Key vergeben
-5.  Den Key von der Datei <strong>C:\Users\silva\.ssh\id_rsa.pub</strong> einfügen und auf <strong>Add SSH key</strong> klicken
+**Danach kann ich den SSH-Key dem Client hinzufügen:**
+1. Auf www.github.com im Benutzerkonto **Settings** aufrufen
+2.  Unter den Menübereichen auf der linken Seite zum Abschnitt **SSH und GPG keys** wechseln
+3.  Auf **New SSH key** klicken
+4.  Im Formular unter **Title** die Bezeichnung MB SSH-Key vergeben
+5.  Den Key von der Datei **C:\Users\silva\.ssh\id_rsa.pub** einfügen und auf **Add SSH key** klicken
 
 ___
 K2
@@ -214,8 +211,8 @@ K2
 ## GitHub Account
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
-<strong>Ich habe folgendermassen einen Github Account erstellt:</strong>
+**Ich habe folgendermassen einen Github Account erstellt:**
 1. Auf [GitHub.com](https://github.com) gehen
-2. Auf <strong>Sign up</strong> klicken
+2. Auf **Sign up** klicken
 3. Username, E-mail und Passwort eingeben sowie Aufgabe zum verifizieren lösen
-4. Auf <strong>Create an Account</strong> klicken
+4. Auf **Create an Account** klicken
