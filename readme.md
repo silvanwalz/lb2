@@ -133,13 +133,13 @@ Dazu habe ich folgende Anweisungen befolgt:
   2. Die Tastenkombination `CTRL` + `SHIFT` + `X` drücken und in der Suchleiste die erwähnten Extensions suchen
   3. Auf `Install` klicken und anschliessend auf `Reload`, um die Extension in den Arbeitsbereich zu laden.
 
-<strong>Um die Dokumentation lokal mit Visual Studio Code zu bearbeiten, arbeite ich folgendermassen:</strong>
+**Um die Dokumentation lokal mit Visual Studio Code zu bearbeiten, arbeite ich folgendermassen:**
 
   1. Änderungen am Readme-File von meinem Repositorys vornehmen
   2. Datei speichern und in der linken Leiste das Symbol mit einer "1" aufrufen
   3. Unter dem Abschnitt **Changes** die betroffenen Files bezüglich ihres Changes "stagen"
   4. Nachricht hinterlegen und Haken setzen
-  5. Bei den 3 Punkten (...) die Funktion **Push** aufrufen
+  5. Bei den 3 Punkten (...) auf **Push** klicken
   6. Warten, bis Dateien vollständig gepusht wurden
 
 ## Git-Client
