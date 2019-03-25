@@ -274,3 +274,4 @@ K5
 
 ## Vergleich Vorwissen - Wissenszuwachs
 
+Ich kannte Vagrant vor diesem Modul nicht. Ich konnte also sehr viel provitieren. Auch mit Markdown bin ich zuvor nicht in Berührug gekommen.
