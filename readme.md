@@ -16,6 +16,8 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
   - [Firewall](#firewall)
   - [Benutzer und Rechtevergabe](#benutzer-und-rechtevergabe)
   - [SSH](#ssh)
+- [K5](#k5)
+  - [Vergleich Vorwissen - Wissenszuwachs](#vergleich-vorwissen---wissenszuwachs)
 ___
 
 K1
@@ -263,3 +265,12 @@ K4
     ```Shell
       sudo apt-get -y install openssh-server
     ```
+
+K5
+======
+
+> [⇧ **Nach oben**](#inhaltsverzeichnis)
+ 
+
+## Vergleich Vorwissen - Wissenszuwachs
+
