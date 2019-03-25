@@ -12,6 +12,8 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
   - [SSH-Key](#ssh-key)
 - [K2](#k2)
   - [GitHub Account](#github-account)
+- [K3](#k3)
+  - [Testen](#testen)
 - [K4](#k4)
   - [Firewall](#firewall)
   - [Benutzer und Rechtevergabe](#benutzer-und-rechtevergabe)
@@ -224,6 +226,14 @@ K2
 3. Username, E-mail und Passwort eingeben sowie Aufgabe zum verifizieren lösen
 4. Auf **Create an Account** klicken
 
+K3
+======
+
+> [⇧ **Nach oben**](#inhaltsverzeichnis)
+ 
+## Testen
+
+Ich habe den Apache getestet, indem ich auf meinem Client die IP-Adresse der VM eingegeben habe. 
 
 K4
 ======
