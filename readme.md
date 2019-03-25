@@ -3,14 +3,16 @@
 Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2 gemacht habe.
 
 ### Inhaltsverzeichnis
-1. [K1](#k1)
-  1.1 [VirtualBox](#virtualbox)
-  1.2 [Vagrant](#vagrant)
-  1.3 [Visual Studio Code](#visual-studio-code)
-  1.4 [Git-Client](#git-client)
-  1.5 [SSH-Key](#ssh-key)
-2. [K2](#k2)
-  2.1 [GitHub Account](#github-account)
+- [M300 - LB2 Dokumentation Silvan Walz](#m300---lb2-dokumentation-silvan-walz)
+    - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+- [K1](#k1)
+  - [VirtualBox](#virtualbox)
+  - [Vagrant](#vagrant)
+  - [Visual Studio Code](#visual-studio-code)
+  - [Git-Client](#git-client)
+  - [SSH-Key](#ssh-key)
+- [K2](#k2)
+  - [GitHub Account](#github-account)
 ___
 
 K1
