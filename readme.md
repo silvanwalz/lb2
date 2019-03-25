@@ -150,7 +150,7 @@ Damit ich die Arbeiten lokal auf dem eigenen PC machen konnte, musste ich der so
 <strong>Client installieren</strong>
 Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite heruntergeladen und GUI-basiert installiert.
 
-<strong>Danach habe ich den Client konfiguriert<strong>
+<strong>Danach habe ich den Client konfiguriert</strong>
 1. Terminal öffnen
 2. Git konfigurieren mit Informationen des GitHub-Accounts:
     ```Shell
