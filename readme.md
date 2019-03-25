@@ -135,12 +135,12 @@ Dazu habe ich folgende Anweisungen befolgt:
 
 <strong>Um die Dokumentation lokal mit Visual Studio Code zu bearbeiten, arbeite ich folgendermassen:</strong>
 
-1. Änderungen am Readme-File von meinem Repositorys vornehmen
-2. Datei speichern und in der linken Leiste das Symbol mit einer "1" aufrufen
-3. Unter dem Abschnitt **Changes** die betroffenen Files bezüglich ihres Changes "stagen"
-4. Nachricht hinterlegen und Haken setzen
-5. Bei den 3 Punkten (...) die Funktion **Push** aufrufen
-6. Warten, bis Dateien vollständig gepusht wurden
+  1. Änderungen am Readme-File von meinem Repositorys vornehmen
+  2. Datei speichern und in der linken Leiste das Symbol mit einer "1" aufrufen
+  3. Unter dem Abschnitt **Changes** die betroffenen Files bezüglich ihres Changes "stagen"
+  4. Nachricht hinterlegen und Haken setzen
+  5. Bei den 3 Punkten (...) die Funktion **Push** aufrufen
+  6. Warten, bis Dateien vollständig gepusht wurden
 
 ## Git-Client
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
@@ -209,3 +209,10 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 ___
 K2
 ======
+
+##GitHub Account
+<strong>Ich habe folgendermassen einen Github Account erstellt:</strong>
+1. Auf [GitHub.com](https://github.com) gehen
+2. Auf <strong>Sign up</strong> klicken
+3. Username, E-mail und Passwort eingeben sowie Aufgabe zum verifizieren lösen
+4. Auf <strong>Create an Account</strong> klicken
