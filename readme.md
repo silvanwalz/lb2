@@ -2,7 +2,7 @@ M300 - LB2 Dokumentation Silvan Walz
 ===
 Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2 gemacht habe.
 
-## Inhaltsverzeichnis
+## Inhaltsverzeichnis 
 - [M300 - LB2 Dokumentation Silvan Walz](#m300---lb2-dokumentation-silvan-walz)
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)
 - [K1](#k1)
@@ -284,4 +284,14 @@ K5
 
 ## Vergleich Vorwissen - Wissenszuwachs
 
-Ich kannte Vagrant vor diesem Modul nicht. Ich konnte also sehr viel provitieren. Auch mit Markdown bin ich zuvor nicht in Berührug gekommen.
+**Bereits bekannt**
+
+Mit der manuellen Virtualisierung von Ubuntu habe ich schon in anderen Modulen gehabt.
+
+**Neu**
+
+ - Vor diesem Modul habe ich immer mit VMWare gearbeiet, also war VirtualBox neu für mich. Ich bin aber sehr schnell und gut zurecht gekommen, da es keine grossen Unterschiede zwischen den beiden gibt.
+ - Ich kannte Vagrant vor diesem Modul nicht, daher war alles davon neu für mich.
+ - Auch mit Markdown bin ich zuvor nicht in Berührug gekommen.
+
+Ich konnte also sehr viel provitieren. 
