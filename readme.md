@@ -286,7 +286,7 @@ K5
 
 **Bereits bekannt**
 
-Mit der manuellen Virtualisierung von Ubuntu habe ich schon in anderen Modulen gehabt.
+- Mit der manuellen Virtualisierung von Ubuntu habe ich schon in anderen Modulen zutun gehabt.
 
 **Neu**
 
@@ -294,4 +294,6 @@ Mit der manuellen Virtualisierung von Ubuntu habe ich schon in anderen Modulen g
  - Ich kannte Vagrant vor diesem Modul nicht, daher war alles davon neu für mich.
  - Auch mit Markdown bin ich zuvor nicht in Berührug gekommen.
 
-Ich konnte also sehr viel provitieren. 
+**Fazit**
+
+Ich konnte sehr von LB2 provitieren, da vieles neu für mich war.
