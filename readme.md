@@ -20,6 +20,7 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
     - [Ports](#ports)
 - [K4](#k4)
   - [Firewall](#firewall)
+  - [Reverse-Proxy](#reverse-proxy)
   - [Benutzer und Rechtevergabe](#benutzer-und-rechtevergabe)
   - [SSH](#ssh)
 - [K5](#k5)
@@ -294,6 +295,20 @@ K4
       sudo ufw allow out 22/tcp 
       sudo ufw enable
     ``` 
+
+## Reverse-Proxy
+**Ich habe beim aufsetzen automatisch einen Reverse-Proxy installiert, indem ich die nötigen Zeilen ins Vagrantfile eingefügt habe:**
+1. Vagrantfile öffnen
+2. Folgende Zeilen einfügen:
+    ```Shell
+    sudo apt-get -y install libapache2-mod-proxy-html
+    sudo apt-get -y install libxml2-dev
+
+    sudo a2enmod proxy
+    sudo a2enmod proxy_html
+    sudo a2enmod proxy_http
+    ``` 
+
 ## Benutzer und Rechtevergabe
 
 **Ich habe beim aufsetzen automatisch User mit Passwort erstellt, indem ich die nötigen Zeilen ins Vagrantfile eingefügt habe:**
@@ -328,6 +343,7 @@ K5
 **Bereits bekannt**
 
 - Die manuelle Virtualisierung von Ubuntu habe ich schon öfters in anderen Modulen oder im ÜK gemacht.
+- Github haben wir bereits in einem anderen Modul gebraucht, doch ich habe mich nicht wirklich gut damit ausgekannt.
 
 **Neu**
 
@@ -337,7 +353,7 @@ K5
 
 **Fazit**
 
-Ich konnte sehr von LB2 provitieren, da vieles neu für mich war. Vor allem Vagrant und Markdown konnte ich viel neues lernen, da ich zuvor noch nie etwas damit zu tun hatte.
+Ich konnte sehr von LB2 provitieren, da vieles neu für mich war. Vor allem Vagrant und Markdown konnte ich viel neues lernen, da ich zuvor noch nie etwas damit zu tun hatte. Auch verstehe ich nun Github einiges besser als zuvor.
 
 ## Reflexion
 
