@@ -14,6 +14,8 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
   - [GitHub Account](#github-account)
 - [K3](#k3)
   - [Testen](#testen)
+    - [Apache](#apache)
+    - [Users and Groups](#users-and-groups)
 - [K4](#k4)
   - [Firewall](#firewall)
   - [Benutzer und Rechtevergabe](#benutzer-und-rechtevergabe)
@@ -219,7 +221,7 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 
 Um Zugriff via SSH auf die VM aufzubauen, muss man bloss einen kurzen Befehl eingeben.
 ```shell
-      vagrant ssh
+vagrant ssh
 ```
 
 ___
@@ -241,17 +243,22 @@ K3
  
 ## Testen
 
+### Apache
 Ich habe den Apache getestet, indem ich auf meinem Client die IP-Adresse der VM eingegeben habe. Zudem habe ich das index.html geändert und geschaut ob es die Änderungen übernommen hat.
 
-
+### Users and Groups
 1. Mit diesem Befehl habe ich alle Benutzer in der VM angezeigt und habe dann gesehen, das meine beiden User erstellt worden sind.
     ```Shell
-      cut -d: -f1 /etc/passwd
+    cut -d: -f1 /etc/passwd
     ```
 2. Mit diesem Befehl zeige ich die Gruppen in der VM an und sehe dann, ob die neue Group erstellt wurde.
     ```Shell
-      cut -d: -f1 /etc/group
+    cut -d: -f1 /etc/group
     ```
+Die beiden Befehle oben kann man in einen zusammenfassen, indem man den User mit der dazugehörigen Group anzeigt:
+```Shell
+cut -d: -f1 /etc/passwd | xargs groups
+```
 
 K4
 ======
