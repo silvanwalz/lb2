@@ -353,7 +353,7 @@ K5
 
  - Vor diesem Modul habe ich immer mit VMWare gearbeiet, also war VirtualBox neu für mich. Ich bin aber sehr schnell und gut zurecht gekommen, da es keine grossen Unterschiede zwischen den beiden gibt.
  - Ich kannte Vagrant vor diesem Modul nicht, daher war alles davon neu für mich.
- - Auch mit Markdown bin ich zuvor nicht in Berührug gekommen.
+ - Auch mit Markdown bin ich zuvor nicht in Berührung gekommen.
 
 **Fazit**
 
