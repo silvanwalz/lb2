@@ -249,6 +249,10 @@ K3
 ### Apache
 - Ich habe den Apache getestet, indem ich auf meinem Client die IP-Adresse der VM eingegeben habe. 
 - Zudem habe ich das index.html geändert und geschaut ob es die Änderungen übernommen hat.
+- Wenn man den folgenden Befehl eingibt, wird das index.html in der Shell angezeigt
+    ```Shell
+    curl -f [ip adress]
+    ```
 
 ### Users and Groups
 - Mit diesem Befehl habe ich alle Benutzer in der VM angezeigt und habe dann gesehen, das meine beiden User erstellt worden sind.
