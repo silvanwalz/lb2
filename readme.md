@@ -6,6 +6,7 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
 - [M300 - LB2 Dokumentation Silvan Walz](#m300---lb2-dokumentation-silvan-walz)
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)
 - [K1](#k1)
+  - [VirtualBox](#virtualbox)
   - [Vagrant](#vagrant)
   - [Visual Studio Code](#visual-studio-code)
   - [Git-Client](#git-client)
@@ -31,7 +32,7 @@ K1
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
  
-  ## VirtualBox
+## VirtualBox
 
 1. Als erstes habe ich auf [dieser Webseite](https://www.virtualbox.org) VirtualBox heruntergeladen und danach GUI-basiert installiert.
 2. Danach habe ich den Ubuntu Desktop 16.04.05 auf [dieser Webseite](https://www.ubuntu.com/#download) heruntergeladen. 
