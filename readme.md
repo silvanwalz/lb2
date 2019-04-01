@@ -336,7 +336,7 @@ K5
 
 **Fazit**
 
-Ich konnte sehr von LB2 provitieren, da vieles neu für mich war. Vor allem Vagrant und Markdown war kompett neu für mich.
+Ich konnte sehr von LB2 provitieren, da vieles neu für mich war. Vor allem Vagrant und Markdown konnte ich viel neues lernen, da ich zuvor noch nie etwas damit zu tun hatte.
 
 ## Reflexion
 
