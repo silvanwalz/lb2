@@ -16,6 +16,7 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2
   - [Testen](#testen)
     - [Apache](#apache)
     - [Users and Groups](#users-and-groups)
+    - [Ports](#ports)
 - [K4](#k4)
   - [Firewall](#firewall)
   - [Benutzer und Rechtevergabe](#benutzer-und-rechtevergabe)
@@ -244,21 +245,35 @@ K3
 ## Testen
 
 ### Apache
-Ich habe den Apache getestet, indem ich auf meinem Client die IP-Adresse der VM eingegeben habe. Zudem habe ich das index.html geändert und geschaut ob es die Änderungen übernommen hat.
+- Ich habe den Apache getestet, indem ich auf meinem Client die IP-Adresse der VM eingegeben habe. 
+- Zudem habe ich das index.html geändert und geschaut ob es die Änderungen übernommen hat.
 
 ### Users and Groups
-1. Mit diesem Befehl habe ich alle Benutzer in der VM angezeigt und habe dann gesehen, das meine beiden User erstellt worden sind.
+- Mit diesem Befehl habe ich alle Benutzer in der VM angezeigt und habe dann gesehen, das meine beiden User erstellt worden sind.
     ```Shell
     cut -d: -f1 /etc/passwd
     ```
-2. Mit diesem Befehl zeige ich die Gruppen in der VM an und sehe dann, ob die neue Group erstellt wurde.
+- Mit diesem Befehl zeige ich die Gruppen in der VM an und sehe dann, ob die neue Group erstellt wurde.
     ```Shell
     cut -d: -f1 /etc/group
     ```
-Die beiden Befehle oben kann man in einen zusammenfassen, indem man den User mit der dazugehörigen Group anzeigt:
-```Shell
-cut -d: -f1 /etc/passwd | xargs groups
-```
+-  Die beiden Befehle oben kann man in einen zusammenfassen, indem man den User mit der dazugehörigen Group anzeigt:
+    ```Shell
+    cut -d: -f1 /etc/passwd | xargs groups
+    ```
+
+- Um zu testen, ob das Passwort geändert wurde, habe ich mich mit einem zuvor erstellten User eingeloggt.
+    ```Shell
+    su user01
+    password: ****
+    ```
+
+### Ports
+- Um zu testen, ob es die Portkonfiguration übernommen hat,    habe ich folgenden Befehl eingegeben und gesehen, dass die im File angegebenen Ports offen sind.
+    ```Shell
+    netstat -an |grep LISTEN 
+    ```
+- In diesem Fall habe ich Port 80 für die Webseite und Port 22 für die SSH-Verbindung geöffnet. Dies kann man auch testen, indem man die Webseite aufruft und eine Verbindung via SSH aufbaut. 
 
 K4
 ======
@@ -285,9 +300,9 @@ K4
 1. Vagrantfile öffnen
 2. Folgende Zeilen einfügen:
     ```Shell
-      sudo groupadd users
-      sudo useradd user1 -g admin -m -s /bin/bash 
-      sudo useradd user2 -g admin -m -s /bin/bash 
+      sudo groupadd testadmin
+      sudo useradd user1 -g testadmin -m -s /bin/bash 
+      sudo useradd user2 -g testadmin -m -s /bin/bash 
       sudo chpasswd <<<user1:abc123	
       sudo chpasswd <<<user2:abc123
     ```
