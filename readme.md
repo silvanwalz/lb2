@@ -215,6 +215,13 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 4.  Im Formular unter **Title** die Bezeichnung MB SSH-Key vergeben
 5.  Den Key von der Datei **C:\Users\silva\.ssh\id_rsa.pub** einfügen und auf **Add SSH key** klicken
 
+**SSH Zugriff auf VM**
+
+Um Zugriff via SSH auf die VM aufzubauen, muss man bloss einen kurzen Befehl eingeben.
+```shell
+      vagrant ssh
+```
+
 ___
 K2
 ======
@@ -234,7 +241,17 @@ K3
  
 ## Testen
 
-Ich habe den Apache getestet, indem ich auf meinem Client die IP-Adresse der VM eingegeben habe. 
+Ich habe den Apache getestet, indem ich auf meinem Client die IP-Adresse der VM eingegeben habe. Zudem habe ich das index.html geändert und geschaut ob es die Änderungen übernommen hat.
+
+
+1. Mit diesem Befehl habe ich alle Benutzer in der VM angezeigt und habe dann gesehen, das meine beiden User erstellt worden sind.
+    ```Shell
+      cut -d: -f1 /etc/passwd
+    ```
+2. Mit diesem Befehl zeige ich die Gruppen in der VM an und sehe dann, ob die neue Group erstellt wurde.
+    ```Shell
+      cut -d: -f1 /etc/group
+    ```
 
 K4
 ======
