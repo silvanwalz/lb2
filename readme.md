@@ -1,4 +1,4 @@
-M300 - LB2 Dokumentation Silvan Walz test
+M300 - LB2 Dokumentation Silvan Walz
 ===
 Die nachstehende Dokumentation zeigt alle Schritte auf, die ich während der LB2 gemacht habe.
 
